@@ -3,14 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ร้านตัวอย่าง — บทเรียน HTML สัปดาห์ที่ 1</title>
+    <title>ชมรมคนเลี้ยงหมู — บทเรียน HTML สัปดาห์ที่ 1</title>
   </head>
   <body>
     <header>
-      <h1>ร้านตัวอย่าง</h1>
-      <nav aria-label="เมนูหลัก">
-        <a href="#catalog">สินค้า</a>
-        <a href="#cart">ตะกร้าตัวอย่าง</a>
+      <h1>ตัวอย่างหมูที่เราร่วมใจเลี้ยง</h1>
+      <nav aria-label="ข่าวสารหลัก">
+        <a href="#Pig">สินค้า</a>
+        <a href="#Piggy">ตะกร้าตัวอย่าง</a>
+        <a href="#i am a pig">ตะกร้าตัวอย่าง</a>
       </nav>
     </header>
 
@@ -20,24 +21,31 @@
         <p>หน้านี้เป็นตัวอย่าง HTML แบบคงที่ ยังไม่มี CSS, JavaScript หรือ API</p>
       </section>
 
-      <section id="catalog" aria-labelledby="catalog-title">
-        <h2 id="catalog-title">รายการสินค้า</h2>
+      <section id="Pig" aria-labelledby="#Pig">
+        <h2 id="#Pig">หมู30ตัว</h2>
         <article aria-labelledby="notebook-title">
-          <h3 id="notebook-title">สมุดบันทึก</h3>
-          <p>ปกอ่อน จำนวน 120 หน้า</p>
-          <p>ราคา <data value="129">129 บาท</data></p>
-          <button type="button" disabled>เพิ่มลงตะกร้า — จะทำงานในบทเรียนภายหลัง</button>
+          <h3 id="notebook-title">• ราคาหมูหน้าฟาร์มปรับขึ้น: เครือข่ายผู้เลี้ยงสุกรได้ประกาศปรับขึ้นราคาสุกรมีชีวิตหน้าฟาร์มอีก 2 บาท/กก. ทุกภูมิภาค มีผลตั้งแต่วันที่ 9 พฤศจิกายน 2569 เป็นต้นไป</h3>
+          <p>ปัญหาต้นทุนและลูกหมูขายยาก: เกษตรกรผู้เลี้ยงหมูยังคงเผชิญภาวะเครียด เนื่องจากต้นทุนราคาอาหารสัตว์ยังคงพุ่งสูงขึ้นสวนทางกับราคาหมูหน้าฟาร์ม ส่งผลให้ลูกค้าในบางพื้นที่ชะลอหรือเลิกรับลูกหมูไปขุนต่อ</p>
+          <p>เหตุการณ์บ่อบำบัดฟาร์มหมูแตก: เกิดเหตุบ่อบำบัดน้ำเสียของฟาร์มสุกรในพื้นที่ตำบลจอมบึง อำเภอจอมบึง จังหวัดราชบุรี แตกและมีการปล่อยน้ำเสียปนเปื้อนไหลทะลักเข้าท่วมชุมชนและพื้นที่การเกษตร ส่งกลิ่นเหม็นเดือดร้อนถึงชาวบ้านในพื้นที่ <data value="129">129 บาท</data></p>
+          <button type="button" disabled>อ่านเพิ่มเติม</button>
         </article>
       </section>
 
-      <section id="cart" aria-labelledby="cart-title">
-        <h2 id="cart-title">ตะกร้าตัวอย่าง</h2>
-        <p>ยังไม่มีสินค้าในตะกร้า</p>
+      <section id="Piggy" aria-labelledby="#Piggy">
+        <h2 id="#Piggy">ปัญหาหมูเถื่อน</h2>
+        <p>ปัญหาหมูเถื่อน</p>
+        <img src="https://www.prachachat.net/wp-content/uploads/2026/10/S__5718112.jpg" alt="ไอ้กาย" width="250" height="250">
       </section>
+      
+      <section id="i am a pig" aria-labelledby="#i am a pig">
+        <h2 id="#i am a pig">ปัญหาหมูเถื่อนสัส</h2>
+        <p>ปัญหาหมูเถื่อนสัส</p>
+      </section>
+
     </main>
 
     <footer>
-      <p>ตัวอย่างสำหรับฝึกอ่านโครงสร้างเอกสารและ DOM</p>
+      <p></p>
     </footer>
   </body>
 </html>
